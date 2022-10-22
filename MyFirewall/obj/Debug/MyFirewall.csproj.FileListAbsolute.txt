@@ -1,0 +1,10 @@
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\bin\Debug\MyFirewall.exe
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\bin\Debug\MyFirewall.pdb
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.csprojResolveAssemblyReference.cache
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.MainForm.resources
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.csproj.GenerateResource.Cache
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.exe
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.pdb
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.NewForwardRuleForm.resources
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.NewRestrictionRuleForm.resources
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.NewSubnetRestrictionForm.resources
