@@ -9,7 +9,7 @@
 ### ENDGROUP - PORT FORWARDING
 
 ### STARTGROUP - MASQUERADE
-
+# -A POSTROUTING -o  -j MASQUERADE 
 ### ENDGROUP - MASQUERADE
 
 COMMIT
@@ -25,9 +25,7 @@ COMMIT
 
 
 ### STARTGROUP - Subnet Restriction
-## START - None
--A FORWARD -s gfdsgfds -d fdsfds -j DROP # gfdgd
-## END - None
+
 ### ENDGROUP - Subnet Restriction
 
 COMMIT

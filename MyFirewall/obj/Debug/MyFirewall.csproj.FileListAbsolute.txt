@@ -8,3 +8,4 @@ C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\
 C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.NewForwardRuleForm.resources
 C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.NewRestrictionRuleForm.resources
 C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.NewSubnetRestrictionForm.resources
+C:\Users\rseman\Documents\SharpDevelop Projects\MyFirewall\MyFirewall\obj\Debug\MyFirewall.Resource1.resources

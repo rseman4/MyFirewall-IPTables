@@ -174,8 +174,8 @@ namespace MyFirewall
 			// 
 			this.connectionLabel.ForeColor = System.Drawing.Color.DarkRed;
 			this.connectionLabel.Name = "connectionLabel";
-			this.connectionLabel.Size = new System.Drawing.Size(79, 17);
-			this.connectionLabel.Text = "Disconnected";
+			this.connectionLabel.Size = new System.Drawing.Size(43, 17);
+			this.connectionLabel.Text = "Offline";
 			// 
 			// dataGridView1
 			// 
@@ -428,8 +428,9 @@ namespace MyFirewall
 			this.Controls.Add(this.tabControl1);
 			this.Controls.Add(this.statusStrip1);
 			this.Controls.Add(this.toolStrip1);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "MainForm";
-			this.Text = "MyFirewall";
+			this.Text = "MyFirewall IPTables";
 			this.toolStrip1.ResumeLayout(false);
 			this.toolStrip1.PerformLayout();
 			this.statusStrip1.ResumeLayout(false);

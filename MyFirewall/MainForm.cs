@@ -307,6 +307,8 @@ namespace MyFirewall
 		
 		void GenerateNewFile()
 		{
+			DialogResult dialogResult = MessageBox.Show("Are you sure you want to generate new configuration file?", "Are you sure?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+			if (dialogResult == DialogResult.No) return;
 			
 			if(masqueradeBox.Checked && masqInterface.Text.Equals(""))
 			{
@@ -459,7 +461,10 @@ namespace MyFirewall
 					if(!masqueradeBox.Checked)
 						newFileContent += "# ";
 							
-					newFileContent += "-A POSTROUTING -o "+ masqInterface.Text +" -j MASQUERADE \n";
+					if(!masqueradeBox.Checked)
+						newFileContent += "-A POSTROUTING -o "+ masqInterface.Text +" -j MASQUERADE \n";
+					else
+						newFileContent += "\n";
 				}
 				else if(line.Equals("### ENDGROUP - MASQUERADE"))
 				{

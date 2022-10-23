@@ -44,6 +44,11 @@ namespace MyFirewall
 		
 		void SaveRuleBtnClick(object sender, EventArgs e)
 		{
+			if(ruleGroup.Text.Trim().Equals(""))
+			{
+				MessageBox.Show("Rule Group cannot be empty!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				return;
+			}
 			DATAGRIDVIEW.Rows.Add(true, ruleGroup.Text, ruleName.Text.Replace(' ', '_'), ipAddress.Text);
 			this.Close();			
 		}
