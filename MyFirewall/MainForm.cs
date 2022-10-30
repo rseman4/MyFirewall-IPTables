@@ -312,7 +312,7 @@ namespace MyFirewall
 			
 			if(masqueradeBox.Checked && masqInterface.Text.Equals(""))
 			{
-				MessageBox.Show("Masquerade was enable but no interface was entered!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show("Masquerade was enabled but no interface was entered!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 				return;
 			}
 			
